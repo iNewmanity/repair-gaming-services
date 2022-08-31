@@ -1,3 +1,7 @@
+Write-Host -ForegroundColor Yellow "Gaining Admin Rights"
+
+start-process powershell –verb runAs
+
 Write-Host -ForegroundColor Yellow "Removing Gaming Services Completely"
 
 Get-AppxPackage *gamingservices* -allusers | remove-appxpackage -allusers
