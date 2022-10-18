@@ -16,6 +16,6 @@ sfc /scannow
 
 code C:\Windows\Logs\CBS\CBS.log
 
-Write-Host -ForegroundColor Yellow "Reinstalling pormpt to install MS Gaming services from MS Store"
+Write-Host -ForegroundColor Yellow "Reinstalling prompt to install MS Gaming services from MS Store"
 
 Start-Process ms-windows-store://pdp/?productid=9MWPM2CQNLHN
